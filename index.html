@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="wpOceans">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <title>Yoki | Personal Portfolio</title>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/custom-animation.css" rel="stylesheet">
+    <link href="assets/sass/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        .signature-svg {
+  width: 220px;
+}
+
+.signature-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 140px;
+  fill: none;
+  stroke: #000;
+  stroke-width: 5;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: write 3s linear infinite;
+}
+
+@keyframes write {
+  0% {
+    stroke-dashoffset: 500;
+  }
+  70% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 500;
+  }
+}
+@media (max-width: 768px) {
+
+
+.menu-open{
+display: none;
+}
+
+.header-section {
+display: none;
+}
+
+}
+    </style>
+
+</head>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- start preloader -->
+        <!-- <div class="preloader">
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <div class="loader-circle"></div>
+                    <div class="loader-line-mask">
+                        <div class="loader-line"></div>
+                    </div>
+                    <img src="assets/images/preloader.png" alt="image">
+                </div>
+            </div>
+        </div> -->
+        <!-- end preloader -->
+        <header class="header-section" id="sticky">
+            <div class="container">
+                <div class="hrader-topbar">
+                    <div class="row justify-content-between">
+                        <!-- <div class="col-lg-3 col-9">
+                            <a href="index.html" class="logo">
+                                <img class="logo-on" src="assets/images/" alt="image">
+                                <img class="logo-two" src="assets/images/" alt="image">
+                            </a>
+                        </div> -->
+                       <div class="logo">
+  <svg viewBox="0 0 600 200" class="signature-svg">
+    <text x="50%" y="60%"
+          text-anchor="middle"
+          class="signature-text">
+      Yogesh
+    </text>
+  </svg>
+</div>
+
+
+                        <div class="col-lg-3 col-3">
+                            <div class="menu-open">
+                                <i class="ti-align-justify" id="bar_close"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-menu" id="menu_wrap">
+                    <ul>
+                        <li><a href="#top">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <!-- <li><a href="#Testimonial">Testimonial</a></li> -->
+                        <li><a href="#FunFact">FunFact</a></li>
+                        <!-- <li><a href="#Blog">Blog</a></li> -->
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="page-content">
+            <div class="smooth-scrool-animate" id="has_smooth"></div>
+            <div id="smooth-wrapper">
+                <div id="smooth-content">
+
+                    <!--start about-section -->
+                    <section class="about-section" id="top">
+                        <div class="container">
+                            <div class="about-wrap">
+                                <div class="image">
+                                    <img src="assets/images/portarte.png" alt="image" class="white-img">
+                                    <img src="assets/images/portarte.png" alt="image" class="dark-img">
+                                </div>
+                                <div class="content">
+                                    <h2>Hello I’m Yogesh</h2>
+                                    <h3>Architect of Digital Experiences</h3>
+                                    <p>I am a creative Designer. I use animation as a third dimension by which to
+                                        simplify
+                                        experiences and kuiding thro each and every interaction. I’m not adding motion
+                                        just to
+                                        spruce things up, but doing it in ways that.</p>
+                                </div>
+                                <div class="progras-wrap">
+                                    <div class="row">
+                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <div class="progras-card">
+                                                <div class="percent">
+                                                    <svg>
+                                                        <circle cx="70" cy="70" r="59"></circle>
+                                                        <circle cx="70" cy="70" r="59" style="--percent: 95"></circle>
+                                                    </svg>
+                                                    <div class="number">
+                                                        <h3>95<span>%</span></h3>
+                                                    </div>
+                                                </div>
+                                                <div class="title">
+                                                    <h2>Frontend Development</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <div class="progras-card">
+                                                <div class="percent">
+                                                    <svg>
+                                                        <circle cx="70" cy="70" r="59"></circle>
+                                                        <circle cx="70" cy="70" r="59" style="--percent: 85"></circle>
+                                                    </svg>
+                                                    <div class="number">
+                                                        <h3>85<span>%</span></h3>
+                                                    </div>
+                                                </div>
+                                                <div class="title">
+                                                    <h2>Mobile App Development</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <div class="progras-card">
+                                                <div class="percent">
+                                                    <svg>
+                                                        <circle cx="70" cy="70" r="59"></circle>
+                                                        <circle cx="70" cy="70" r="59" style="--percent: 75"></circle>
+                                                    </svg>
+                                                    <div class="number">
+                                                        <h3>75<span>%</span></h3>
+                                                    </div>
+                                                </div>
+                                                <div class="title">
+                                                    <h2>Backend & APIs</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <div class="progras-card">
+                                                <div class="percent">
+                                                    <svg class="animate__rotateOut">
+                                                        <circle cx="70" cy="70" r="59"></circle>
+                                                        <circle cx="70" cy="70" r="59" style="--percent: 70"></circle>
+                                                    </svg>
+                                                    <div class="number">
+                                                        <h3>70<span>%</span></h3>
+                                                    </div>
+                                                </div>
+                                                <div class="title">
+                                                    <h2>Database & Cloud</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="left-text">
+                            <h2 class="text-outline text-outline-hover" data-text="Application">Application</h2>
+                        </div>
+                        <div class="right-text">
+                            <h2 class="text-outline text-outline-hover" data-text="Developer">Developer</h2>
+                        </div>
+                    </section>
+
+                    <!--start service-section -->
+                    <section class="service-section" id="Services">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title">
+                                        <h2> My Services</h2>
+                                        <h3>What I Do</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-12 col-md-6 col-12">
+                                    <div class="service_item">
+                                        <div class="icon">
+                                            <img src="assets/images/service/1.png" alt="service" class="white-img">
+                                            <img src="assets/images/service/img-1.png" alt="service" class="black-img">
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="click-modal-service" data-title="Website Design"
+                                                data-image="assets/images/service/img-1.jpg"
+                                                data-imageon="assets/images/service/1.jpg"
+                                                data-imagetwo="assets/images/service/2.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#serviceModal">Custom Website Development</span>
+                                            </h2>
+                                            <p>Modern, responsive websites using React, Vite, and optimized performance.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-12 col-md-6 col-12">
+                                    <div class="service_item">
+                                        <div class="icon">
+                                            <img src="assets/images/service/2.png" alt="service" class="white-img">
+                                            <img src="assets/images/service/img-2.png" alt="service" class="black-img">
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="click-modal-service" data-title="Mobile App Design"
+                                                data-image="assets/images/service/img-2.jpg"
+                                                data-imageon="assets/images/service/3.jpg"
+                                                data-imagetwo="assets/images/service/4.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#serviceModal">Mobile App Development</span>
+                                            </h2>
+                                            <p>Cross-platform Android & iOS apps using React Native with API integration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-12 col-md-6 col-12">
+                                    <div class="service_item">
+                                        <div class="icon">
+                                            <img src="assets/images/service/5.png" alt="service" class="white-img">
+                                            <img src="assets/images/service/img-5.png" alt="service" class="black-img">
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="click-modal-service" data-title="Graphic
+                                                    Design" data-image="assets/images/service/img-4.jpg"
+                                                data-imageon="assets/images/service/7.jpg"
+                                                data-imagetwo="assets/images/service/8.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#serviceModal">Web Application Development</span>
+                                            </h2>
+                                            <p>Admin panels, dashboards, SaaS platforms, and business systems with full backend support.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-12 col-md-6 col-12">
+                                    <div class="service_item">
+                                        <div class="icon">
+                                            <img src="assets/images/service/3.png" alt="service" class="white-img">
+                                            <img src="assets/images/service/img-3.png" alt="service" class="black-img">
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="click-modal-service" data-title="Web App
+                                                     Design" data-image="assets/images/service/img-3.jpg"
+                                                data-imageon="assets/images/service/5.jpg"
+                                                data-imagetwo="assets/images/service/6.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#serviceModal">Backend & API Development</span>
+                                            </h2>
+                                            <p>Secure REST APIs, authentication systems, payment gateway integration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-12 col-md-6 col-12">
+                                    <div class="service_item">
+                                        <div class="icon">
+                                            <img src="assets/images/service/4.png" alt="service" class="white-img">
+                                            <img src="assets/images/service/img-4.png" alt="service" class="black-img">
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="click-modal-service" data-title="Branding
+                                                    Design" data-image="assets/images/service/img-5.jpg"
+                                                data-imageon="assets/images/service/9.jpg"
+                                                data-imagetwo="assets/images/service/10.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#serviceModal">Database & System Architecture</span>
+                                            </h2>
+                                            <p>PostgreSQL database design, user data storage, payment tracking, CRUD systems.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-12 col-md-6 col-12">
+                                    <div class="service_item">
+                                        <div class="icon">
+                                            <img src="assets/images/service/6.png" alt="service" class="white-img">
+                                            <img src="assets/images/service/img-6.png" alt="service" class="black-img">
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="click-modal-service" data-title="UX/UI Design"
+                                                data-image="assets/images/service/img-6.jpg"
+                                                data-imageon="assets/images/service/11.jpg"
+                                                data-imagetwo="assets/images/service/12.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#serviceModal">Deployment & Cloud Setup</span>
+                                            </h2>
+                                            <p>Vercel deployment, AWS basics, domain setup, DNS configuration, Shopify integration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--start portfolio-section -->
+                    <section class="portfolio-section gallery-filters" id="Portfolio">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title">
+                                        <h2>Portfolio</h2>
+                                        <h3>My Latest Works</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-category">
+                                <!-- <ul>
+                                    <li>
+                                        <button data-filter=".all" class="active">All</button>
+                                    </li>
+                                    <li>
+                                        <button data-filter=".website">Website</button>
+                                    </li>
+                                    <li>
+                                        <button data-filter=".app">Mobile App</button>
+                                    </li>
+                                    <li>
+                                        <button data-filter=".graphics">Graphics</button>
+                                    </li>
+                                </ul> -->
+                            </div>
+                            <div class="portfolio-wrap">
+                                <div class="row gallery-container">
+                                    <div class="col-lg-6 col-md-6 col-12 all zoomIn app" data-wow-duration="3000ms">
+                                       <a href="https://www.billiontags.com/" target="_blank">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/billontags.png" alt="image">
+                                                <span>website Development</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Arrangement Of Leaf"
+                                                data-mein-img="assets/images/portfolio/img-1.jpg"
+                                                data-img-on="assets/images/portfolio/ps-1.jpg"
+                                                data-img-two="assets/images/portfolio/ps-2.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">Billiontags Creation pvt ltd
+                                                </span>
+                                            </h2>
+                                        </div></a> 
+                                    </div>
+                                    
+                                   
+                                    <div class="col-lg-6 col-md-6 col-12 all zoomIn graphics"
+                                        data-wow-duration="4000ms">
+                                         <a href="https://club.spaceandbeauty.com/" target="_blank">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/snb-club.png" alt="image">
+                                                <span>Fullstack Development</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Creative
+                                                    Graphics" data-mein-img="assets/images/portfolio/img-2.jpg"
+                                                data-img-on="assets/images/portfolio/ps-3.jpg"
+                                                data-img-two="assets/images/portfolio/ps-4.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">Space and Beauty Club</span>
+                                            </h2>
+                                        </div></a>
+                                    </div>
+
+                                     <div class="col-lg-6 col-md-6 col-12 all zoomIn graphics"
+                                        data-wow-duration="4000ms">
+                                        <a href="https://www.xpatoo.com/" target="_blank">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/xpatoo.png" alt="image">
+                                                <span>website Development</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Creative
+                                                    Graphics" data-mein-img="assets/images/portfolio/img-2.jpg"
+                                                data-img-on="assets/images/portfolio/ps-3.jpg"
+                                                data-img-two="assets/images/portfolio/ps-4.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">Xpatoo</span>
+                                            </h2>
+                                        </div></a>
+                                    </div>
+                                     <div class="col-lg-6 col-md-6 col-12 all zoomIn graphics"
+                                        data-wow-duration="4000ms">
+                                        <a href="https://nriadvertising.com/" target="_blank">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/nri.png" alt="image">
+                                                <span>website Development</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Creative
+                                                    Graphics" data-mein-img="assets/images/portfolio/img-2.jpg"
+                                                data-img-on="assets/images/portfolio/ps-3.jpg"
+                                                data-img-two="assets/images/portfolio/ps-4.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">NRI Advertising</span>
+                                            </h2>
+                                        </div></a>
+                                    </div>
+                                    
+                                    <div class="col-lg-6 col-md-6 col-12 all zoomIn website app"
+                                        data-wow-duration="2000ms">
+                                        <a href="https://boomsaventures.com/" target="_blank">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/boomsa.png" alt="image">
+                                                <span>Website Dev</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Image Multiple Effec"
+                                                data-mein-img="assets/images/portfolio/img-3.jpg"
+                                                data-img-on="assets/images/portfolio/ps-5.jpg"
+                                                data-img-two="assets/images/portfolio/ps-6.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">Boomsaventures
+                                                </span>
+                                            </h2>
+                                        </div></a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-12 all zoomIn graphics app"
+                                        data-wow-duration="3000ms">
+                                        <a href="https://thecultureroots.com/" target="_blank">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/cultureroots.png" alt="image">
+                                                <span>website Development</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Decoration Of
+                                                    Tree" data-mein-img="assets/images/portfolio/img-4.jpg"
+                                                data-img-on="assets/images/portfolio/ps-7.jpg"
+                                                data-img-two="assets/images/portfolio/ps-8.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">The Culture Roots</span>
+                                            </h2>
+                                        </div></a>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12 all zoomIn graphics"
+                                        data-wow-duration="4000ms">
+                                         <a href="https://spaceandbeauty.com/" target="_blank">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/spaceandbeautyorginal.png" alt="image">
+                                                <span>Fullstack Development</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Creative
+                                                    Graphics" data-mein-img="assets/images/portfolio/img-2.jpg"
+                                                data-img-on="assets/images/portfolio/ps-3.jpg"
+                                                data-img-two="assets/images/portfolio/ps-4.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">Space and Beauty (On-Going)</span>
+                                            </h2>
+                                        </div></a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-12 all zoomIn graphics"
+                                        data-wow-duration="4000ms">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/livya.png" alt="image">
+                                                <span>website Development</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Creative
+                                                    Graphics" data-mein-img="assets/images/portfolio/img-2.jpg"
+                                                data-img-on="assets/images/portfolio/ps-3.jpg"
+                                                data-img-two="assets/images/portfolio/ps-4.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">Livya (On-Going)</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    
+                                     <div class="col-lg-6 col-md-6 col-12 all zoomIn graphics"
+                                        data-wow-duration="4000ms">
+                                        <div class="portfolio_card">
+                                            <div class="image">
+                                                <img class="thumbnail" src="assets/images/portfolio/true.png" alt="image">
+                                                <span>website Development</span>
+                                            </div>
+                                            <h2 class="portfolio-modal" data-title="Creative
+                                                    Graphics" data-mein-img="assets/images/portfolio/img-2.jpg"
+                                                data-img-on="assets/images/portfolio/ps-3.jpg"
+                                                data-img-two="assets/images/portfolio/ps-4.jpg">
+                                                <span data-bs-toggle="modal" data-bs-target="#">True.iv (On-Going)</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--start testimonial-section -->
+                    <!-- <section class="testimonial-section" id="Testimonial">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title">
+                                        <h2>Testimonial</h2>
+                                        <h3>What My Client Says</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-wrap testimonial-slider owl-carousel">
+                                <div class="testimonial-card">
+                                    <div class="top-content">
+                                        <div class="image">
+                                            <img src="assets/images/testimonial/1.jpg" alt="image">
+                                        </div>
+                                        <div class="text">
+                                            <h2>William Henry</h2>
+                                            <span>WP Developer</span>
+                                        </div>
+                                    </div>
+                                    <h3>“Purus eget consectur massa amet. Hactor bodiam suspendie faucibus posuere
+                                        dignissim
+                                        amet to atthe. Vitaer of sollicitudin mauris erat odio maecenas mattis
+                                        praesent.Eget
+                                        vitaoe magna condimentum tristique scelerisque” </h3>
+                                    <div class="icon">
+                                        <img src="assets/images/testimonial/quote.png" alt="image">
+                                    </div>
+                                </div>
+                                <div class="testimonial-card">
+                                    <div class="top-content">
+                                        <div class="image">
+                                            <img src="assets/images/testimonial/1.jpg" alt="image">
+                                        </div>
+                                        <div class="text">
+                                            <h2>William Henry</h2>
+                                            <span>WP Developer</span>
+                                        </div>
+                                    </div>
+                                    <h3>“Purus eget consectur massa amet. Hactor bodiam suspendie faucibus posuere
+                                        dignissim
+                                        amet to atthe. Vitaer of sollicitudin mauris erat odio maecenas mattis
+                                        praesent.Eget
+                                        vitaoe magna condimentum tristique scelerisque” </h3>
+                                    <div class="icon">
+                                        <img src="assets/images/testimonial/quote.png" alt="image">
+                                    </div>
+                                </div>
+                                <div class="testimonial-card">
+                                    <div class="top-content">
+                                        <div class="image">
+                                            <img src="assets/images/testimonial/1.jpg" alt="image">
+                                        </div>
+                                        <div class="text">
+                                            <h2>William Henry</h2>
+                                            <span>WP Developer</span>
+                                        </div>
+                                    </div>
+                                    <h3>“Purus eget consectur massa amet. Hactor bodiam suspendie faucibus posuere
+                                        dignissim
+                                        amet to atthe. Vitaer of sollicitudin mauris erat odio maecenas mattis
+                                        praesent.Eget
+                                        vitaoe magna condimentum tristique scelerisque” </h3>
+                                    <div class="icon">
+                                        <img src="assets/images/testimonial/quote.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
+
+                    <!--start funfact-section -->
+                    <section class="funfact-section" id="FunFact">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
+                                    <div class="item">
+                                        <h2><span class="odometer" data-count="15">00</span>+</h2>
+                                        <h4>Complete Projects</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
+                                    <div class="item">
+                                        <h2><span class="odometer" data-count="4.9">00</span>/<span class="odometer"
+                                                data-count="5"></span></h2>
+                                        <h4>Average Rating</h4>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-12">
+                                    <div class="item">
+                                        <h2><span class="odometer" data-count="10">00</span>+</h2>
+                                        <h4>Happy Clients</h4>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+                                    <div class="item">
+                                        <h2><span class="odometer" data-count="15">00</span>+</h2>
+                                        <h4>Winning Awards</h4>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--start blog-section -->
+                    <!-- <section class="blog-section" id="Blog">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title">
+                                        <h2>Blog</h2>
+                                        <h3>Latest News</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-wrap">
+                                <div class="item">
+                                    <div class="image">
+                                        <img class="thumbnail2" src="assets/images/blog/img-1.jpg" alt="image">
+                                    </div>
+                                    <div class="content">
+                                        <ul class="date">
+                                            <li>Sep 03, 2021 </li>
+                                            <li>Anne William</li>
+                                        </ul>
+                                        <h2 class="modal-blog" data-title="How can you Generate
+                                                Perfect AI Photo" data-mein-img="assets/images/blog-single/img-1.jpg"
+                                            data-img-on="assets/images/blog-single/1.jpg"
+                                            data-img-two="assets/images/blog-single/2.jpg">
+                                            <span data-bs-toggle="modal" data-bs-target="#blogModal">How can you
+                                                Generate
+                                                Perfect AI Photo</span>
+                                        </h2>
+                                        <h4 class="modal-blog" data-title="How can you Generate
+                                                Perfect AI Photo" data-mein-img="assets/images/blog-single/img-1.jpg"
+                                            data-img-on="assets/images/blog-single/1.jpg"
+                                            data-img-two="assets/images/blog-single/2.jpg">
+                                            <span data-bs-toggle="modal" data-bs-target="#blogModal">Read More</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="image">
+                                        <img class="thumbnail3" src="assets/images/blog/img-2.jpg" alt="image">
+                                    </div>
+                                    <div class="content">
+                                        <ul class="date">
+                                            <li>Sep 03, 2021 </li>
+                                            <li>Anne William</li>
+                                        </ul>
+                                        <h2 class="modal-blog" data-title="How can you Generate
+                                                Perfect AI Photo" data-mein-img="assets/images/blog-single/img-2.jpg"
+                                            data-img-on="assets/images/blog-single/3.jpg"
+                                            data-img-two="assets/images/blog-single/4.jpg">
+                                            <span data-bs-toggle="modal" data-bs-target="#blogModal">How can you
+                                                Generate
+                                                Perfect AI Photo</span>
+                                        </h2>
+                                        <h4>
+                                            <span data-bs-toggle="modal" data-bs-target="#blogModal">Read More</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="image">
+                                        <img class="thumbnail2" src="assets/images/blog/img-3.jpg" alt="image">
+                                    </div>
+                                    <div class="content">
+                                        <ul class="date">
+                                            <li>Sep 03, 2021 </li>
+                                            <li>Anne William</li>
+                                        </ul>
+                                        <h2 class="modal-blog" data-title="How can you Generate
+                                                Perfect AI Photo" data-mein-img="assets/images/blog-single/img-3.jpg"
+                                            data-img-on="assets/images/blog-single/5.jpg"
+                                            data-img-two="assets/images/blog-single/6.jpg">
+                                            <span data-bs-toggle="modal" data-bs-target="#blogModal">How can you
+                                                Generate
+                                                Perfect AI Photo</span>
+                                        </h2>
+                                        <h4>
+                                            <span data-bs-toggle="modal" data-bs-target="#blogModal">Read More</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
+
+                    <!--start contact-section -->
+                    <section class="contact-section" id="Contact">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-title">
+                                        <h2>Get in Touch</h2>
+                                        <h3>Contact With Me</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <div class="info-item">
+                                    <div class="icon">
+                                        <img src="assets/images/contact/1.png" alt="image" class="white-img">
+                                        <img src="assets/images/contact/img-1.png" alt="image" class="black-img">
+                                    </div>
+                                    <div class="text">
+                                        <h2>Contact Info</h2>
+                                        <span>chennai, TamilNadu</span>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <div class="icon">
+                                        <img src="assets/images/contact/2.png" alt="image" class="white-img">
+                                        <img src="assets/images/contact/img-2.png" alt="image" class="black-img">
+                                    </div>
+                                    <div class="text">
+                                        <h2>Email Address</h2>
+                                        <span>yogesh111801@gmail.com</span>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <div class="icon">
+                                        <img src="assets/images/contact/3.png" alt="image" class="white-img">
+                                        <img src="assets/images/contact/img-3.png" alt="image" class="black-img">
+                                    </div>
+                                    <div class="text">
+                                        <h2>Phone</h2>
+                                        <span>+91-9344167587</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-form-area">
+                                <!-- <form method="post" class="contact-validation-active" id="contact-form-main"> -->
+                                    <form action="https://formspree.io/f/xqelrnpo" method="POST">
+                                    <div>
+                                        <input type="text" class="form-control" name="name" id="name"
+                                            placeholder="Your Name*">
+                                    </div>
+                                    <div>
+                                        <input type="email" class="form-control" name="email" id="email"
+                                            placeholder="Your Email*">
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control" name="adress" id="adress"
+                                            placeholder="Adress">
+                                    </div>
+                                    <div class="select_item">
+                                        <select name="subject" id="subject" class="form-control">
+                                            <option disabled="disabled" selected>Services</option>
+                                            <option>Website Design</option>
+                                            <option>Mobile App Design</option>
+                                            <option>UX/UI Design</option>
+                                            <option>Graphic Design</option>
+                                        </select>
+                                    </div>
+                                    <div class="fullwidth">
+                                        <textarea class="form-control" name="note" id="note"
+                                            placeholder="Message..."></textarea>
+                                    </div>
+                                    <div class="submit-area">
+                                        <button type="submit" class="submit-btn mouseCursor">Send Message</button>
+                                        <div id="loader">
+                                            <!-- <i class="ti-reload"></i> -->
+                                        </div>
+                                    </div>
+                                    <!-- <div class="clearfix error-handling-messages">
+                                        <div id="success">Thank you</div>
+                                        <div id="error"> Error occurred while sending email. Please try again later.
+                                        </div>
+                                    </div> -->
+                                    <!-- <input type="hidden" name="_redirect" value="index.html"> -->
+
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--start footer-section -->
+                    <section class="footer-section">
+                        <div class="container">
+                            <h1 class="d-none">hidden content</h1>
+                            <div class="row align-items-center">
+                                <div class="col-md-6 col-12">
+                                    <p>©copyright by <a href="404.html">Yogesh</a></p>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <ul>
+                                        <!-- <li><a href="#">facebook</a></li> -->
+                                        <!-- <li><a href="yogesh111801@gmail.com">@mail</a></li> -->
+                                        <!-- <li><a href="#">Instagram</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- theme color buttom -->
+        <!-- <div class="open-color-icon">
+            <button class="switcher-open">
+                <i class="ti-settings" id="open-btn"></i>
+                <i class="ti-close" id="close-btn"></i>
+            </button>
+            <div class="color-bar">
+                <h3>Mode</h3>
+                <div class="color-btn">
+                    <button class="dark-btn" data-mode="light" aria-label="active">light</button>
+                    <button class="white-btn" data-mode="dark" aria-label="dark">dark</button>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Cursor  -->
+        <div class="cursor"></div>
+
+    </div>
+
+   
+
+
+
+
+    <!-- end of page-wrapper -->
+
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <script src="assets/js/simpleParallax.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/custom-animation.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
